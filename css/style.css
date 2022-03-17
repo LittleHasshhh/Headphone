@@ -4,3 +4,66 @@ body {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
 }
+:root {
+    --noir: #090c13;
+    --blanc: #ffffff;
+    --orange1: #fe696a;
+    --orange2: #ff4243;
+}
+
+/*Nav Bar*/
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+}
+nav ul li {
+    font-weight: 500;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+}
+.logoW {
+    font-size: 1.3rem;
+}
+
+    /*Header*/
+
+header {
+    background-image: url(../images/bg-header.jpg);
+    background-size: 2000px;
+    height: 700px;
+    color: var(--blanc);
+}
+header h1 {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.oneTxt {
+    font-size: 2rem;
+}
+header section{
+    margin-left: 15%;
+    padding-top: 120px;
+}
+.align {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 15%;
+}
+.align a {
+    text-decoration: none;
+    color: var(--blanc);
+    padding: 15px 30px;
+    background-color: #ff4243;
+    border-radius: 90px;
+}
