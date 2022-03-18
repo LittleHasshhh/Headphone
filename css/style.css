@@ -154,7 +154,7 @@ header section{
     width: 60%;
     margin: auto;
 }
-.secondSec div h3 {
+.secondSec div h3, .container h4{
     font-size: 2.2rem;
     color: var(--gray-7);
     font-weight: 500;
@@ -162,8 +162,8 @@ header section{
     margin: 120px 0 80px;
 }
 .container img {
-    width: 400px;
-    height: 250px;
+    width: 355px;
+    height: 240px;
     margin: 15px;
     border-radius: 8px;
 }
@@ -172,11 +172,11 @@ header section{
 }
 .divp {
     position: absolute;
-    left: 0;
-    top: 0;
+    left: 15px;
+    top: 15px;
     color: transparent;
-    width: 400px;
-    height: 250px;
+    width: 355px;
+    height: 240px;
     transition: all 70ms;
     display: flex;
     align-items: flex-end;
@@ -187,8 +187,8 @@ header section{
     left: 0;
     top: 0;
     background-color: rgba(9, 12, 19, 0.55);
-    width: 400px;
-    height: 250px;
+    width: 355px;
+    height: 240px;
     margin: 15px;
     border-radius: 8px;
     text-align: center;
@@ -199,4 +199,20 @@ header section{
 }
 .firstG, .secondG {
     display: flex;
+}
+
+/********/
+
+.high {
+    display: flex;
+}
+.tech1 {
+    width: 70%;
+    text-align: justify;
+}
+.tech2 ul {
+    list-style: none;
+}
+.tech2 h5 {
+    margin-left: 40px;
 }
